@@ -1,0 +1,21 @@
+Temos 3 Salas:
+
+Sala 1 
+Sala 2
+Sala 3
+
+Temos 3 Interruptores:
+
+Interruptor 1 
+Interruptor 2 
+Interruptor 3
+
+Serão Realizadas 1 Ida a Sala 1 e uma Ida a Sala 2.
+
+Inicialmente iremos ligar o Interruptor 1 por 2 minutos e desligaremos ele, em seguida iremos ligar o Interruptor 2 e o deixaremos ligado, por fim deixaremos o Interruptor 3 desligado.
+Ao final desse processo iremos ate a Sala 1, ao chegar na sala se a lampâda estiver ligada significa que ela corresponde ao interruptor 2, caso ela esteja desligada devemos verificar se ela está quente  ou fria, caso ela esteja desligada-quente significa que ela corresponde ao Interruptor 1, caso ela esteja desligada e fria significa que ela nunca foi acesa, portanto corresponde ao interruptor 3. Com isso voltaremos a sala dos interruptores e já saberemos a qual interrupotor corresponde a sala 1.
+
+Com isso sobraram 2 interruptores para a outras 2 salas, iremos acender 1 e deixar o outro desligado e após esse processo iremos para a sala 2.
+Ao chegar na sala 2, se a lampada estiver ligada ela corresponde ao interruptor ligado, caso ela esteja desligada ela corresponde ao interruptor desligado.
+
+Portanto, ao final saberemos qual interruptor corresponde a qual sala.
